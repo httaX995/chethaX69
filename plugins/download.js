@@ -1036,7 +1036,7 @@ cmd({
                       'url': _0x56e5a4
                     },
                     'mimetype': "video/mp4",
-                    'fileName': _0x5469b6.title + " - " + _0x21b2a8.quality + ".mp4",
+                    'fileName': "🎬CK CineMAX🎬 -" + _0x5469b6.title + " - " + _0x21b2a8.quality + ".mp4",
                     'caption': "*🍀 " + _0x5469b6.title + "*\n*🌟 " + _0x21b2a8.quality + "*\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
                     'contextInfo': {
                       'mentionedJid': [],
