@@ -94,7 +94,7 @@ reply(`\n⬇️  *TC TEAM GDRIVE DOWNLOADER*  ⬇️
 *🕹️ File type:* ${res.mimetype}
 
 *ᴛᴄ ᴛᴇᴀᴍ ᴍᴏᴠɪᴇᴅʟ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜɴɪᴄᴀʟ ᴄʏʙᴇʀꜱ*`)		
-conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬 ᴛᴄ ᴍᴏᴠɪᴇ ᴅʟ 🎬\n"+name, mimetype: res.mimetype , caption : "\n"+name+"\n\n> *𝗧𝗘𝗖𝗛𝗡𝗜𝗖𝗔𝗟 𝗖𝗬𝗕𝗘𝗥𝗦*"})
+conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "mkv" , caption : "*🍀 "+name+"*\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
 } catch (e) {
 reply('*Error..! Your Url is Private. Please Public It*')
 l(e)
