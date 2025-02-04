@@ -94,7 +94,7 @@ reply(`\n⬇️  *CK CineMAX MOVIE DL*  ⬇️
 *🕹️ File type:* ${res.mimetype}
 
 > 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*`)		
-conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "mkv" , caption : "*🍀ᴛɪᴛʟᴇ➠ "+name+"*\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
+conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "mkv" , caption : "*🍀ɴᴀᴍᴇ ➠* "+name+"\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
 } catch (e) {
 reply('*Error..! Your Url is Private. Please Public It*')
 l(e)
@@ -123,7 +123,7 @@ reply(`\n⬇️  *CK CineMAX MOVIE DL*  ⬇️
 *🕹️ File type:* ${res.mimetype}
 
 > 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*`)		
-conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "video/mp4" , caption : "*🍀ᴛɪᴛʟᴇ➠ "+name+"\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
+conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "video/mp4" , caption : "*🍀ɴᴀᴍᴇ ➠* "+name+"\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
 } catch (e) {
 reply('*Error..! Your Url is Private. Please Public It*')
 l(e)
