@@ -73,7 +73,7 @@ console.log(e)
 
 
 cmd({
-    pattern: "gjid",
+    pattern: "gmkv",
     alias: ["nsgoogledrive","nsgdrive","nscyber_gd"],
     react: '📑',
     desc: "Download googledrive files.",
@@ -87,14 +87,43 @@ try{
   var [jid,link,name] = q.split(",");
  let res = await fg.GDriveDl(link)
   var name = name ? `${name.replace(/enter/g,'\n').replace(/oname/g,res.fileName)}` : res.fileName
-reply(`\n⬇️  *TC TEAM GDRIVE DOWNLOADER*  ⬇️
+reply(`\n⬇️  *CK CineMAX MOVIE DL*  ⬇️
 
-*📃 File name:*  ${"🎬 DARKALPHAXTEAM 🎬\n"+name}
+*📃 File name:*  ${"🎬CK CineMAX🎬"+name}
 *💈 File Size:* ${res.fileSize}
 *🕹️ File type:* ${res.mimetype}
 
-*ᴛᴄ ᴛᴇᴀᴍ ᴍᴏᴠɪᴇᴅʟ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜɴɪᴄᴀʟ ᴄʏʙᴇʀꜱ*`)		
-conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "mkv" , caption : "*🍀 "+name+"*\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
+> 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*`)		
+conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "mkv" , caption : "*🍀ᴛɪᴛʟᴇ➠ "+name+"*\n🌟ꜱɪᴢᴇ➠ "${res.fileSize}"\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
+} catch (e) {
+reply('*Error..! Your Url is Private. Please Public It*')
+l(e)
+}
+})
+
+cmd({
+    pattern: "gvid",
+    alias: ["nsgoogledrive","nsgdrive","nscyber_gd"],
+    react: '📑',
+    desc: "Download googledrive files.",
+    category: "download",
+    use: '.gdrive <googledrive link>',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+  if (!q.includes(",")) return reply('*Please give me googledrive url and jid Like this...!!*\n.gdrive < jid >,< drive url>')   
+  var [jid,link,name] = q.split(",");
+ let res = await fg.GDriveDl(link)
+  var name = name ? `${name.replace(/enter/g,'\n').replace(/oname/g,res.fileName)}` : res.fileName
+reply(`\n⬇️  *CK CineMAX MOVIE DL*  ⬇️
+
+*📃 File name:*  ${"🎬CK CineMAX🎬"+name}
+*💈 File Size:* ${res.fileSize}
+*🕹️ File type:* ${res.mimetype}
+
+> 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*`)		
+conn.sendMessage(jid, { document: { url: res.downloadUrl }, fileName: "🎬CK CineMAX🎬\n"+name, mimetype: "video/mp4" , caption : "*🍀ᴛɪᴛʟᴇ➠ "+name+"*\n🌟ꜱɪᴢᴇ➠ "${res.fileSize}"\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*"})
 } catch (e) {
 reply('*Error..! Your Url is Private. Please Public It*')
 l(e)
