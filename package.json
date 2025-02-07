@@ -80,7 +80,7 @@
     "sequelize":"^6.28.0",
     "ytdl-core": "^4.11.5",
     "postgres_dbm": "^1.1.0",
-    "@sl-code-lords/movie-ap": "1.0.0",
+    "@sl-code-lords/movie-api": "1.0.0",
     "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git"
   }
 }
