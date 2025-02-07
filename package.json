@@ -79,6 +79,8 @@
     "sqlite3": "5.1.7",
     "sequelize":"^6.28.0",
     "ytdl-core": "^4.11.5",
-    "postgres_dbm" : "^1.1.0"
+    "postgres_dbm": "^1.1.0",
+    "@sl-code-lords/movie-ap": "1.0.0",
+    "": ""
   }
 }
