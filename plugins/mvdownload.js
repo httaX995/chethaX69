@@ -996,12 +996,12 @@ cmd({
               return await _0x371d5f("No PixelDrain links found.");
             }
             let _0x4ccef6 = "☘️ *" + _0x5469b6.title + "*\n\n";
-      _0x4ccef6 += "*🧿 Release Date:* " + _0x5469b6.date + "\n\n";
-      _0x4ccef6 += "*🌍 Country:* " + _0x5469b6.country + "\n\n";
-      _0x4ccef6 += "*⏱️ Duration:* " + _0x5469b6.duration + "\n\n";
-      _0x4ccef6 += "*🎀 Categories:* " + _0x5469b6.genres + "\n\n";
-      _0x4ccef6 += "*⭐ IMDB:* " + _0x5469b6.IMDB + "\n\n";
-      _0x4ccef6 += "*🤵‍♂️ Director:* " + _0x5469b6.director.name + "\n\n";
+                _0x4ccef6 = "*🧿 Release Date:* " + _0x5469b6.date + "\n\n";
+                _0x4ccef6 = "*🌍 Country:* " + _0x5469b6.country + "\n\n";
+                _0x4ccef6 = "*⏱️ Duration:* " + _0x5469b6.duration + "\n\n";
+                _0x4ccef6 = "*🎀 Categories:* " + _0x5469b6.genres + "\n\n";
+                _0x4ccef6 = "*⭐ IMDB:* " + _0x5469b6.IMDB + "\n\n";
+                _0x4ccef6 = "*🤵‍♂️ Director:* " + _0x5469b6.director.name + "\n\n";
               _0x4ccef6 = "*🌟 ᴀᴠᴀɪʟᴀʙʟᴇ Qᴜᴀʟɪᴛɪᴇꜱ 🌟*\n";
             _0x291aac.forEach((_0x66c253, _0x299595) => {
               _0x4ccef6 += '*' + (_0x299595 + 0x1) + " | ❭❭◦ 🍀 " + _0x66c253.quality + " [" + _0x66c253.size + "]*\n";
