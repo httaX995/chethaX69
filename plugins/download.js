@@ -995,20 +995,20 @@ cmd({
             if (_0x291aac.length === 0x0) {
               return await _0x371d5f("No PixelDrain links found.");
             }
-            let _0x4ccef6 = "☘️ *" + _0x66c253.title + "*\n\n";
-      _0x4ccef6 += "*🧿 Release Date:* " + _0x66c253.date + "\n\n";
-      _0x4ccef6 += "*🌍 Country:* " + _0x66c253.country + "\n\n";
-      _0x4ccef6 += "*⏱️ Duration:* " + _0x66c253.duration + "\n\n";
-      _0x4ccef6 += "*🎀 Categories:* " + _0x66c253.genres + "\n\n";
-      _0x4ccef6 += "*⭐ IMDB:* " + _0x66c253.IMDB + "\n\n";
-      _0x4ccef6 += "*🤵‍♂️ Director:* " + _0x66c253.director.name + "\n\n";
+            let _0x4ccef6 = "☘️ *" + _0x5469b6.title + "*\n\n";
+      _0x4ccef6 += "*🧿 Release Date:* " + _0x5469b6.date + "\n\n";
+      _0x4ccef6 += "*🌍 Country:* " + _0x5469b6.country + "\n\n";
+      _0x4ccef6 += "*⏱️ Duration:* " + _0x5469b6.duration + "\n\n";
+      _0x4ccef6 += "*🎀 Categories:* " + _0x5469b6.genres + "\n\n";
+      _0x4ccef6 += "*⭐ IMDB:* " + _0x5469b6.IMDB + "\n\n";
+      _0x4ccef6 += "*🤵‍♂️ Director:* " + _0x5469b6.director.name + "\n\n";
               _0x4ccef6 = "*🌟 ᴀᴠᴀɪʟᴀʙʟᴇ Qᴜᴀʟɪᴛɪᴇꜱ 🌟*\n";
             _0x291aac.forEach((_0x66c253, _0x299595) => {
               _0x4ccef6 += '*' + (_0x299595 + 0x1) + " | ❭❭◦ 🍀 " + _0x66c253.quality + " [" + _0x66c253.size + "]*\n";
             });
             const _0xb3a0bf = await _0x57388a.sendMessage(_0x5f00ab, {
             'image': {
-                'url': _0x4ccef6.image
+                'url': _0x5469b6.image
               },
               'caption': _0x4ccef6
             }, {
