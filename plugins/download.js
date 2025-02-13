@@ -995,22 +995,12 @@ cmd({
             if (_0x291aac.length === 0x0) {
               return await _0x371d5f("No PixelDrain links found.");
             }
-            let _0x4ccef6 = "☘️ *" + _0x5469b6.title + "*\n\n";
-                _0x4ccef6 = "*🧿 Release Date:* " + _0x5469b6.date + "\n";
-                _0x4ccef6 = "*🌍 Country:* " + _0x5469b6.country + "\n";
-                _0x4ccef6 = "*⏱️ Duration:* " + _0x5469b6.duration + "\n";
-                _0x4ccef6 = "*🎀 Categories:* " + _0x5469b6.genres + "\n";
-                _0x4ccef6 = "*⭐ IMDB:* " + _0x5469b6.IMDB + "\n";
-                _0x4ccef6 = "*🤵‍♂️ Director:* " + _0x5469b6.director.name + "\n\n";
-              _0x4ccef6 = "*🌟 ᴀᴠᴀɪʟᴀʙʟᴇ Qᴜᴀʟɪᴛɪᴇꜱ 🌟*\n";
+            let _0x4ccef6 = "*🌟 ᴀᴠᴀɪʟᴀʙʟᴇ Qᴜᴀʟɪᴛɪᴇꜱ 🌟*\n\n";
             _0x291aac.forEach((_0x66c253, _0x299595) => {
               _0x4ccef6 += '*' + (_0x299595 + 0x1) + " | ❭❭◦ 🍀 " + _0x66c253.quality + " [" + _0x66c253.size + "]*\n";
             });
             const _0xb3a0bf = await _0x57388a.sendMessage(_0x5f00ab, {
-            'image': {
-                'url': _0x5469b6.image
-              },
-              'caption': _0x4ccef6
+              'text': _0x4ccef6
             }, {
               'quoted': _0x5703e1
             });
@@ -1044,8 +1034,8 @@ cmd({
                     'document': {
                       'url': _0x56e5a4
                     },
-                    'mimetype': "video/mp4",
-                    'fileName': "🎬CK CineMAX🎬 -" + _0x5469b6.title + " - " + _0x21b2a8.quality + ".mp4",
+                    'mimetype': "video/mkv",
+                    'fileName': "🎬CK CineMAX🎬 -" + _0x5469b6.title + " - " + _0x21b2a8.quality + ".mkv",
                     'caption': "*🍀ᴛɪᴛʟᴇ ➠* " + _0x5469b6.title + "\n*🌟Qᴜᴀʟɪᴛʏ ➠* " + _0x21b2a8.quality + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
                     'contextInfo': {
                       'mentionedJid': [],
